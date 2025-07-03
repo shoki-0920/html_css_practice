@@ -34,7 +34,7 @@ p {
     scroll-snap-align: start;
     height: 100vh;
 }
-
+　
 /* 各エリアの背景色 */
 .area:nth-child(even) {
     background-color: #ffd1da;
