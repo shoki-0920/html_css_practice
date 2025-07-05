@@ -21,10 +21,10 @@ h1 {
     padding: 10rem;
 
     /* 背景色を上部#9e549c、下部 #392152のグラデーションカラーに変更する */
-    background: #9e549c;
+    background: linear-gradient(#9e549c, #392152);
     
     /* 右下を20%切り抜いた斜めのラインにする */
-    
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
 /* ボタン */
@@ -35,6 +35,9 @@ h1 {
     display: inline-block;
 
     /* カーソルをあわせると、0.5秒かけて変化させる */
-    
+    transition: .5s;
 }
 /* カーソルをあわせると、背景色を #ff0 にする */
+.btn:hover {
+    background: #ff0;
+}
