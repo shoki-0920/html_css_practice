@@ -15,5 +15,8 @@ img {
     filter: blur(3px);
 }
 .filter2 {
+    transition: 3s;
+}
+.filter2:hover {
     filter: blur(10px);
 }
