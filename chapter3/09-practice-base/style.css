@@ -48,8 +48,31 @@ li {
     margin: .5rem 0;
 }
 /* リストの装飾 */
-
- 
+li::before {
+    display: inline-block;
+    content: '';
+    width:6px;
+    height:6px;
+    background: #0bd;
+    margin: 0 10px 3px 0;
+}
 /*
 デスクトップサイズ
 ================================================ */
+@media (min-width: 700px){
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    main {
+        width: 70%;
+    }
+    aside {
+        width: 26%;
+    }
+    .sticky {
+        position: sticky;
+        top: 0;
+    }
+
+}
