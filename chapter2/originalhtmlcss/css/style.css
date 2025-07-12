@@ -4,10 +4,75 @@ html {
     font-size: 100%;
 }
 
+p {
+  line-height: 2.0;
+  font-size: 1.125rem;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.titles {
+  text-align: center;
+  background-image: url(../images/background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
 
 .title {
-    font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-size: 10rem;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 12rem;
+  padding-top: 20px;
+  margin-bottom: 4rem;
+  text-align: center;
+  position: relative;
+
+}
+
+.course {
+  height: 100vh;
+  background-image: url(../images/backgrounds.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  flex-direction: column;         /* 縦に並べる */
+  align-items: center;            /* 横方向の中央寄せ */
+  justify-content: center;   
+}
+
+.course_index {
+  display: ;
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  top: 3rem; 
+}
+
+table {
+  
+}
+
+.allow {
+  height: 100vh;
+  background-image: url(../images/backgroundss.jpg);
+  text-align: center;
+  padding-top: 8rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
